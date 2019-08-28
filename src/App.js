@@ -1,5 +1,7 @@
 import React from 'react';
 import Navigation from './components/Navigation/Navigation'
+import Logo from './components/Logo/Logo'
+import ImageLinkForm from './components/ImageLinkForm/ImageLinkForm'
 import tachyons from 'tachyons'
 
 
@@ -7,9 +9,9 @@ function App() {
   return (
     <div>
       <Navigation />
-      {/**<Logo />
+      <Logo /> 
       <ImageLinkForm />
-      <FaceRecognition />**/}
+      {/**<FaceRecognition />**/}
     </div>
   )
 }
